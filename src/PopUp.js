@@ -3,7 +3,6 @@ import M from 'materialize-css';
 
 const PopUp = {
   exibeMensagem: (status, msg) => {
-      console.log("chamou")
     if (status === "success")
       M.toast({ html: msg, classes: "green", displayLength: 2000 })
 
